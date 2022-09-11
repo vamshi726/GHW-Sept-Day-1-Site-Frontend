@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+html, body {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Chivo', sans-serif;
+  background:#BAACBD ;
+}
+
+.header-text {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+  padding-top: 20px;
+}
+
+.body-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-1 {
+  display: flex;
+  width: 200px;
+  
+}
+.body-text {
+  display: flex;
+  color: white;
+}
+
+.link-button {
+  border: none;
+  text-decoration: none;
+  font-family: 'Chivo', sans-serif;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: white;
+  color: #BAACBD;
+}
+
+.link-button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
